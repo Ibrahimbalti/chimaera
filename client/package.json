@@ -1,0 +1,78 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@mdi/font": "^4.4.95",
+    "@mdi/js": "^4.4.95",
+    "@mdi/react": "^1.2.1",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "classnames": "^2.2.6",
+    "downloadjs": "^1.4.7",
+    "file-saver": "^2.0.2",
+    "firebase": "^7.6.1",
+    "fs": "^0.0.1-security",
+    "history": "^4.10.1",
+    "jquery": "^3.4.1",
+    "js-file-download": "^0.4.9",
+    "moment": "^2.24.0",
+    "node-sass": "^4.12.0",
+    "qrcode.react": "^1.0.0",
+    "react": "^16.9.0",
+    "react-avatar-edit": "^0.8.3",
+    "react-beautiful-dnd": "^12.2.0",
+    "react-bootstrap": "^1.0.0-beta.12",
+    "react-burger-menu": "^2.6.11",
+    "react-color": "^2.18.0",
+    "react-copy-to-clipboard": "^5.0.2",
+    "react-dates": "^21.1.0",
+    "react-dom": "^16.9.0",
+    "react-ga": "^2.7.0",
+    "react-google-login-component": "^0.9.3",
+    "react-images-upload": "^1.2.7",
+    "react-input-color": "^2.0.26",
+    "react-list-drag-and-drop": "^0.9.2",
+    "react-materialize": "^3.4.1",
+    "react-modal": "^3.11.1",
+    "react-owl-carousel": "^2.3.1",
+    "react-owl-carousel2": "^0.3.0",
+    "react-redux": "^7.1.1",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.1",
+    "react-stepzilla": "^6.0.2",
+    "react-stripe-checkout": "^2.6.3",
+    "react-stripe-elements": "^5.0.1",
+    "react-switch": "^5.0.1",
+    "react-toastify": "^5.4.0",
+    "reactcss": "^1.2.3",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "valid-url": "^1.0.9",
+    "validator": "^11.1.0",
+    "vcards-js": "^2.10.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:6000/"
+}

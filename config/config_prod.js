@@ -1,0 +1,9 @@
+module.exports.dbURL = process.env.MONGO_URL
+module.exports.secretOrKey = process.env.SECRET_OR_KEY
+module.exports.senderEmail = process.env.SENDER_EMAIL
+module.exports.senderEmailPassword = process.env.SENDER_EMAIL_PASSWORD
+module.exports.stripePrivateKey = process.env.STRIPE_PRIVATE_KEY
+module.exports.facebookClientId = process.env.FACEBOOK_CLIENT_ID
+module.exports.facebookClientSecrete = process.env.FACEBOOK_CLIENT_SECRETE
+module.exports.googleClientId = process.env.GOOGLE_CLIENT_ID
+module.exports.hostURL = process.env.HOST_URL

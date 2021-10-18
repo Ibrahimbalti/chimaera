@@ -1,0 +1,463 @@
+//extra large
+@media only screen and (max-width: 1200px) {
+  #home .step .step-img img {
+    width: 45%;
+    margin-top: 100px;
+    height: 443px;
+    border-radius: 11px;
+  }
+  #user-guide .step .nxt {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10000;
+    width: 89%;
+    top: 34vh;
+  }
+  #login {
+    height: 135vh;
+  }
+  .plus-icon {
+    z-index: 30000;
+  }
+  .social-login {
+    width: 100%;
+    justify-content: center !important;
+    text-align: center;
+    .google-btn {
+      margin-bottom: 15px;
+      padding: 10px 17px !important;
+    }
+  }
+  .facebook-button {
+    display: block !important;
+    margin: 15px auto 0;
+  }
+  .facebook-button {
+    display: block !important;
+    margin: 15px auto 0;
+    padding: 10px 10px !important;
+    i {
+      margin-right: 5px !important;
+    }
+  }
+}
+//large
+@media only screen and (max-width: 992px) {
+  #home .step .step-img img {
+    width: 54%;
+    margin-top: 100px;
+    height: 443px;
+    border-radius: 11px;
+  }
+  #home .hero-content h2 {
+    max-width: 60%;
+  }
+  #login {
+    height: 135vh;
+  }
+  .social-login {
+    width: 100%;
+    text-align: center;
+    .google-btn {
+      margin-bottom: 15px;
+    }
+  }
+  .facebook-button {
+    display: block !important;
+    margin: 15px auto 0;
+    padding: 10px 8px !important;
+    i {
+      margin-right: 9px !important;
+    }
+  }
+}
+//Medium
+@media only screen and (max-width: 768px) {
+  #user-guide .step .step-img .details {
+    width: 100%
+  }
+  #home .step .step-img img {
+    width: 54%;
+    margin-top: 100px;
+    height: 443px;
+    border-radius: 11px;
+  }
+  #home {
+    .hero-content-inner {
+      padding-bottom: 0 !important;
+    }
+    .btn-generic {
+      padding: 7px 16px;
+      font-size: 10px;
+    }
+    .hero-content h2 {
+      font-size: 25px;
+      max-width: 50%;
+      .header-title {
+        font-size: 17px;
+      }
+    }
+    .hero-content p {
+      margin: 13px 0;
+      font-size: 12px;
+    }
+  }
+  #login {
+    height: 135vh;
+  }
+  #login .form button {
+    padding: 7px 35px;
+  }
+  .link2 {
+    margin-right: 20px;
+  }
+  .social-login {
+    width: 100%;
+    text-align: center;
+    .google-btn {
+      margin-bottom: 15px;
+    }
+  }
+  .facebook-button {
+    display: block !important;
+    margin: 15px auto 0;
+    padding: 10px 8px !important;
+    i {
+      margin-right: 5px !important;
+    }
+  }
+  #add-link {
+    .contacts-form {
+      max-width: 90%;
+      button {
+        font-size: 15px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 577px) {
+  #home .step .step-img img {
+    width: 63%;
+    margin-top: 100px;
+    height: 443px;
+    border-radius: 11px;
+  }
+  #home .hero {
+    margin-top: 30px;
+    .btn-generic {
+      padding: 7px 16px;
+      font-size: 10px;
+    }
+  }
+  #home .step .step-img img {
+    width: 50%;
+    margin-top: 100px;
+    height: 443px;
+    border-radius: 11px;
+  }
+  #working-process img {
+    margin-bottom: 40px;
+  }
+}
+//extra small
+@media only screen and (max-width: 576px) {
+  #home .step .step-img img {
+    width: 70%;
+    margin-top: 100px;
+    height: 443px;
+    border-radius: 11px;
+  }
+  #user-guide .step .nxt {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10000;
+    width: 90%;
+    top: 40vh;
+  }
+  #home {
+    .btn-generic {
+      font-size: 10px;
+    }
+    p {
+      font-size: 11px;
+      max-width: 530px;
+    }
+    padding-top: 45px;
+    .hero-content-inner {
+      padding-bottom: 0 !important;
+    }
+    .hero-content h2 {
+      font-size: 21px;
+      .header-title {
+        font-size: 16px;
+      }
+    }
+    .hero-content p {
+      margin: 15px 0;
+    }
+  }
+  #working-process img {
+    margin-bottom: 40px;
+  }
+  #login {
+    .logo {
+      border: none;
+      margin-top: 30px;
+    }
+    height: 155vh;
+  }
+  .social-login {
+    width: 100%;
+    text-align: center;
+  }
+  .facebook-button {
+    display: block !important;
+    margin: 15px auto 0;
+  }
+  #add-link {
+    .contacts-form {
+      max-width: 100%;
+      button {
+        font-size: 15px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 450px) {
+  #home .step .step-img img {
+    width: 84%;
+    margin-top: 100px;
+    height: 443px;
+    border-radius: 11px;
+  }
+  #user-guide .step .nxt {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10000;
+    width: 91%;
+    top: 26vh;
+  }
+  .payment .nav-tabs {
+    width: 166px !important;
+  }
+  #home {
+    h3 {
+      font-size: 15px;
+    }
+    p {
+      font-size: 12px;
+      max-width: 340px;
+    }
+    .hero-content .hero-content-inner {
+      h2 {
+        font-size: 17px;
+        max-width: 53%;
+        .header-title {
+          font-size: 11px;
+        }
+      }
+    }
+    .hero-content p {
+      max-width: 92%;
+      font-size: 11px;
+      max-width: 53%;
+    }
+    .btn-generic {
+      padding: 5px 10px;
+      font-size: 10px;
+    }
+    #working-process {
+      padding: 40px 0;
+    }
+    .div-title-span {
+      position: relative;
+      font-size: 25px;
+    }
+  }
+  #working-process img {
+    margin-bottom: 40px;
+  }
+  .modal-title {
+    font-size: 14px;
+  }
+  .tab-inner .img-box {
+    width: 95px !important;
+    h3 {
+      font-size: 15px !important;
+    }
+  }
+  #settings {
+    .email-change {
+      button {
+        margin-top: 20px;
+        padding: 3px 15px !important;
+        border-radius: 5px;
+        font-size: 12px;
+      }
+    }
+    .profile-img img {
+      width: 70px;
+      height: 70px;
+    }
+    .profile-name h4 {
+      font-size: 20px !important;
+    }
+    .profile-update {
+      margin-left: 10px !important;
+    }
+    .upload-img input {
+      padding: 0px 0 !important;
+      max-width: 150px;
+    }
+    .header h2 {
+      font-size: 20px;
+    }
+    .display label {
+      font-size: 7px;
+    }
+    p {
+      font-size: 7px;
+    }
+    h4 {
+      font-size: 14px;
+    }
+    .save button {
+      padding: 7px 20px;
+      font-size: 12px;
+      border-radius: 5px;
+    }
+    .third button {
+      padding: 3px 15px !important;
+      border-radius: 5px;
+      font-size: 12px;
+    }
+    .ant-calendar-picker {
+      max-width: 90%;
+    }
+  }
+  #admin {
+    .name h4 {
+      font-size: 14px !important;
+    }
+    .profile .profile-inner img {
+      width: 70px !important;
+      height: 70px !important;
+      margin-top: 10px;
+    }
+    .site {
+      padding: 0px 0 0px 2px !important;
+      font-size: 10px !important;
+      margin-top: -5px;
+    }
+    .addres-user a {
+      padding: 0 0px 0 3px;
+      margin-bottom: 6px;
+      font-size: 11px;
+      margin-top: 4px;
+    }
+    p {
+      padding: 0 0px 0 2px;
+      font-size: 11px;
+    }
+    .social-logo img {
+      width: 40px;
+      height: 40px;
+      margin: 0 5px;
+    }
+    .social-share svg {
+      width: 12px !important;
+      height: 12px !important;
+    }
+    .share-brand {
+      a {
+        text-align: center;
+      }
+      span {
+        font-size: 8px;
+        display: block;
+        margin-top: 5px;
+      }
+      img {
+        width: 20px;
+        display: block;
+        margin: auto;
+      }
+    }
+    .header .social-head {
+      line-height: 7px;
+      margin-top: 27px;
+    }
+    .horizontal .header .social-head {
+      margin-top: 21px;
+    }
+  }
+  #add-link {
+    .add-link-title h2 {
+      font-size: 16px;
+    }
+    .nav-tabs {
+      width: 197px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    .nav-item {
+      padding: 2px 5px !important;
+      border-radius: 5px !important;
+      font-weight: 300;
+      font-size: 10px;
+    }
+    .contacts-form {
+      max-width: 100%;
+      button {
+        font-size: 12px;
+      }
+    }
+  }
+  .ant-collapse-header {
+    font-size: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .circular--portrait {
+    margin-top: 10px;
+    width: 95px;
+    height: 95px;
+  }
+  #home {
+    .hero {
+      margin-top: 20px;
+    }
+    .hero-content p {
+      font-size: 9px;
+    }
+    .btn-generic {
+      padding: 5px 9px;
+      font-size: 10px;
+    }
+  }
+  #working-process img {
+    margin-bottom: 40px;
+  }
+  #user-guide .step .do-this button {
+    border: none;
+    color: #fff;
+    margin-top: 15px;
+    padding: 7px 6px;
+    font-size: 12px;
+    border-radius: 6px;
+    background-color: #fe0000;
+  }
+  #user-guide .step .nxt button {
+    border: none;
+    color: #fff;
+    bottom: 0;
+    padding: 1px 8px;
+    border-radius: 6px;
+    background-color: #fe0000;
+    outline: none;
+  }
+}

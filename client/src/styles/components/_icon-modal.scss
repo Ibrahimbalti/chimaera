@@ -1,0 +1,48 @@
+#modal-body{
+    // display: flex;
+    justify-content: flex-start;
+    .img-box{
+        img{
+            margin: auto;
+            width: 105px;
+            display: block;
+            border-radius: 50%;
+        }
+    }
+    .form-box{
+        width: 85%;
+        margin: auto;
+        .input-group{
+            margin-top: 20px;
+            p{
+                margin-bottom: 0;
+                color: brown;
+            }
+        }
+        input{
+            padding: 3px 0px;
+            width: 100%;
+            &::placeholder{
+                color: #8cabd6;
+            }
+        }
+
+    }
+}
+.modal-title{
+    text-transform: uppercase;
+}
+.modal-header{
+    border: none;
+}
+.modal-footer{
+    border: none;
+    margin-top: 30px;
+    .modal-save{
+        background-color: #000000;
+        color: red;
+        border: none;
+        text-transform: capitalize;
+        font-size: 17px;
+    }
+}

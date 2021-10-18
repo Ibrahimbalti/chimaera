@@ -1,0 +1,60 @@
+.preGuid {
+  .img-1 {
+    max-width: 30%;
+    display: block;
+    margin: 30px auto;
+  }
+  .img-2 {
+    max-width: 60%;
+    display: block;
+    margin: auto;
+  }
+}
+#user-guide {
+  min-height: 100vh;
+  overflow: hidden;
+  .step {
+    padding: 40px 0;
+    .step-img {
+      .header{
+        margin-top: 20px;
+        h2{
+          font-size: 25px;
+          font-weight: 600;
+          margin-bottom: 30px;
+        }
+      }
+      .details{
+        width: 50%;
+        margin: auto;
+        ul{
+          li{
+            font-size: 20px;
+            text-align: left;
+          }
+        }
+        .para{
+          p{
+            font-size: 20px;
+            text-align: left;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+  .owl-carousel {
+    position: relative;
+    .owl-dots {
+      position: absolute;
+      display: inline-block;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      span{background-color: #FF817F;}
+      .owl-dot.active span{
+        background-color: #FF0400;
+      }
+    }
+  }
+}
